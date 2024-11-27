@@ -1,4 +1,4 @@
-class Student {
+public class Student {
     private String name;
     private String group;
     private int course;
@@ -11,6 +11,8 @@ class Student {
         this.marks = marks;
     }
 
+    // I decided not to add setters because
+    // I don't need them in this task
     public String getName() {
         return name;
     }
